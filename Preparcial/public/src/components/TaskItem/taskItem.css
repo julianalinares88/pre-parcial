@@ -1,0 +1,18 @@
+/* las clases del task item con el ternerio nos sirven para que el 
+componente visual cambie de acuerdo al estado de la tarea */
+.task{
+    background-color: rgba(179, 0, 255, 0.338);
+    padding: 12px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    width: 50%;
+}
+
+.completed {
+    background-color: rgba(28, 239, 105, 0.416);
+    padding: 12px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    width: 50%;
+    text-decoration: line-through;
+}
